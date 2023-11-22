@@ -235,12 +235,9 @@ width:60px;
     left:10%;
   }
   .main8{
-    width: 100%;
-    background-size: contain;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+   
+    background:url('group.png');
+    background-size:inherit;
     
   }
   .footer{
@@ -258,5 +255,9 @@ width:60px;
     justify-content: start;
   align-items: none;
   overflow-y: scroll;
+ 
+  }
+ .slider-arrow-left,.slider-arrow-right{
+    display: none;
   }
 }

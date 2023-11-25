@@ -2,6 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
+  width: 100vw;
  
 }
 .main1,.main2,.main3,.main4,.main5,.main6,.main7,.main8,.footer{
@@ -10,7 +11,7 @@ body {
   justify-content: center;
   flex-direction: row;
   margin-bottom: 10px;
-  width: 100%;
+  
 }
 .submain1,.submain2,.submain3,.submain4,.submain5,.submain6,.submain7,.submain8,.submain9,.footerR,.footerL{
   display: flex;
@@ -179,7 +180,15 @@ ol li{
   body{
     margin:0px;
     padding:0px;
+  
   }
+  .container{
+    margin-right: 0%;
+    padding: 0%;
+    margin: 0%;
+    overflow-x: hidden;
+  }
+ 
   .main1{
     margin: 0%;
     padding: 0%;
@@ -237,8 +246,11 @@ width:60px;
   .main8{
    
     background:url('group.png');
-    background-size:inherit;
+   
     
+  }
+  .main8 img{
+    width:100%;
   }
   .footer{
     margin-top: 10px;
@@ -259,5 +271,8 @@ width:60px;
   }
  .slider-arrow-left,.slider-arrow-right{
     display: none;
+  }
+  .slider-container{
+    margin: 0%;
   }
 }
